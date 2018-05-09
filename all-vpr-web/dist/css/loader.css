@@ -1,0 +1,53 @@
+/* line 7, ../../css/src/sass/loader.sass */
+body {
+  background-color: #002F6C;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0; }
+  /* line 16, ../../css/src/sass/loader.sass */
+  body p {
+    color: #dadada;
+    padding-left: 20px; }
+    /* line 19, ../../css/src/sass/loader.sass */
+    body p a {
+      color: #eb5f0c; }
+
+/* line 23, ../../css/src/sass/loader.sass */
+.loader {
+  width: 7em;
+  height: 7em;
+  animation: loaderAnim 1.25s infinite ease-in-out;
+  outline: 1px solid transparent; }
+  /* line 29, ../../css/src/sass/loader.sass */
+  .loader #largeBox {
+    height: 7em;
+    width: 7em;
+    background-color: #eb5f0c;
+    outline: 1px solid transparent;
+    position: fixed; }
+  /* line 36, ../../css/src/sass/loader.sass */
+  .loader #smallBox {
+    height: 7em;
+    width: 7em;
+    background-color: #002F6C;
+    position: fixed;
+    z-index: 1;
+    outline: 1px solid transparent;
+    animation: smallBoxAnim 1.25s alternate infinite ease-in-out; }
+
+@keyframes smallBoxAnim {
+  0% {
+    transform: scale(0.2); }
+  100% {
+    transform: scale(0.8); } }
+@keyframes loaderAnim {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(90deg); } }
+
+/*# sourceMappingURL=loader.css.map */

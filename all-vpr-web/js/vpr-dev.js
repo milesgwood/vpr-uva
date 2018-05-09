@@ -207,16 +207,13 @@
     function log() {
         try {
             var args = [];
-            for (var i = 0; i < arguments.length; i++)
+            for (var i = 0; i < arguments.length; i++){
                 args[i] = arguments[i];
+            }
             console.log("[cc_scripts]", arguments);
         } catch (err) {
         }
-    }
-	
-
-
-	
+    }	
 })(jQuery, document, window);
 
 function show_all_news(){
