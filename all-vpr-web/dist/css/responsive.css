@@ -1,0 +1,68 @@
+@media (max-width: 900px) {
+  /* line 2, ../../css/src/sass/responsive.sass */
+  .vpr-squares-flex .flex-card .flex-card-inner {
+    font-size: 25px; } }
+@media (max-width: 767px) {
+  /* line 6, ../../css/src/sass/responsive.sass */
+  .home-news .row {
+    max-height: unset;
+    overflow: auto; }
+
+  /* line 9, ../../css/src/sass/responsive.sass */
+  .vpr-squares-flex {
+    flex-direction: column; }
+    /* line 11, ../../css/src/sass/responsive.sass */
+    .vpr-squares-flex .flex-card {
+      width: 100%;
+      flex: auto;
+      max-width: unset; }
+
+  /* line 15, ../../css/src/sass/responsive.sass */
+  .vpr-squares-flex-2 {
+    flex-direction: column-reverse; }
+
+  /* line 17, ../../css/src/sass/responsive.sass */
+  .vpr-site-title {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 15px; }
+
+  /* line 22, ../../css/src/sass/responsive.sass */
+  .main-content {
+    min-height: unset; }
+    /* line 25, ../../css/src/sass/responsive.sass */
+    .main-content ul.grey-info-list .half-page {
+      width: unset;
+      min-width: 50%; }
+      /* line 28, ../../css/src/sass/responsive.sass */
+      .main-content ul.grey-info-list .half-page h3 {
+        font-size: 1.5em; }
+
+  /* line 30, ../../css/src/sass/responsive.sass */
+  #home-headshot {
+    text-align: center; } }
+@media (max-width: 600px) {
+  /* line 35, ../../css/src/sass/responsive.sass */
+  .vpr-site-title img {
+    width: 100px; }
+
+  /* line 38, ../../css/src/sass/responsive.sass */
+  ul.grey-info-list .half-page {
+    width: unset;
+    min-width: 50%;
+    margin-left: 0px;
+    margin-right: 0px; }
+    /* line 43, ../../css/src/sass/responsive.sass */
+    ul.grey-info-list .half-page img {
+      width: 100px; } }
+@media (max-width: 500px) {
+  /* line 48, ../../css/src/sass/responsive.sass */
+  #sidebar h2 {
+    max-width: 300px; } }
+@media (max-width: 400px) {
+  /* line 52, ../../css/src/sass/responsive.sass */
+  .vpr-page-title {
+    font-size: 3em; } }
+
+/*# sourceMappingURL=responsive.css.map */

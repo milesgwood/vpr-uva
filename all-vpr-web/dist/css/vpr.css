@@ -1,0 +1,235 @@
+/* line 6, ../../css/src/sass/vpr.sass */
+img, iframe {
+  max-width: 100%; }
+
+/* line 9, ../../css/src/sass/vpr.sass */
+.site-logo {
+  max-width: 180px; }
+
+/* line 12, ../../css/src/sass/vpr.sass */
+.navbar-toggle {
+  margin-left: auto; }
+
+/* line 15, ../../css/src/sass/vpr.sass */
+body {
+  font-size: 18px; }
+
+/* line 19, ../../css/src/sass/vpr.sass */
+a .bbb {
+  color: white;
+  background: #002F6C;
+  font-size: 30px;
+  padding: 0.5em 1em;
+  display: inline-block;
+  margin: 5px;
+  border-style: outset;
+  border-width: 2px;
+  border-color: #666666; }
+/* line 30, ../../css/src/sass/vpr.sass */
+a:hover .bbb {
+  color: #002F6C;
+  background: #eb5f0c;
+  text-decoration: none; }
+
+/* line 35, ../../css/src/sass/vpr.sass */
+.flex-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-sizing: border-box; }
+  /* line 40, ../../css/src/sass/vpr.sass */
+  .flex-wrapper .wrapper {
+    float: left;
+    position: relative;
+    margin: 5px;
+    width: 31.2%;
+    min-width: 305px;
+    flex-grow: 1; }
+    /* line 47, ../../css/src/sass/vpr.sass */
+    .flex-wrapper .wrapper img {
+      width: 100%; }
+    /* line 49, ../../css/src/sass/vpr.sass */
+    .flex-wrapper .wrapper .description {
+      position: absolute;
+      bottom: 0px;
+      left: 0px;
+      width: 100%;
+      background-color: #002F6C;
+      opacity: 0.85; }
+      /* line 56, ../../css/src/sass/vpr.sass */
+      .flex-wrapper .wrapper .description .description_content {
+        padding: 0.2em 0.5em;
+        margin: 0px;
+        font-size: 24px;
+        color: white;
+        text-align: center;
+        font-weight: 500;
+        line-height: 1em;
+        height: 2.4em; }
+
+/* line 67, ../../css/src/sass/vpr.sass */
+.flex-wrapper-fourths a.wrapper {
+  width: 24%;
+  min-width: 240px; }
+
+/* line 72, ../../css/src/sass/vpr.sass */
+.zoom-in {
+  transition: all 0.2s ease-in-out; }
+  /* line 74, ../../css/src/sass/vpr.sass */
+  .zoom-in:hover {
+    transform: scale(1.03); }
+    /* line 77, ../../css/src/sass/vpr.sass */
+    .zoom-in:hover div.description p.description_content {
+      color: #eb5f0c; }
+
+/* line 80, ../../css/src/sass/vpr.sass */
+.vpr-squares-flex {
+  display: flex;
+  justify-content: center; }
+  /* line 83, ../../css/src/sass/vpr.sass */
+  .vpr-squares-flex .flex-card {
+    width: 25%;
+    text-decoration: none;
+    height: 200px;
+    flex: 1 1 0;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    /* line 92, ../../css/src/sass/vpr.sass */
+    .vpr-squares-flex .flex-card .flex-card-inner {
+      text-align: center;
+      font-size: 30px;
+      padding: 20px;
+      line-height: 35px;
+      font-weight: 600; }
+  /* line 98, ../../css/src/sass/vpr.sass */
+  .vpr-squares-flex a.flex-card:hover {
+    color: white;
+    background-color: #eb5f0c;
+    border: solid #eb5f0c;
+    cursor: pointer; }
+
+/* line 104, ../../css/src/sass/vpr.sass */
+.vpr-squares-flex-1 .flex-card:nth-child(odd) {
+  border-width: 2px;
+  background-color: white;
+  border: solid #eb5f0c;
+  color: #002F6C; }
+/* line 109, ../../css/src/sass/vpr.sass */
+.vpr-squares-flex-1 .flex-card:nth-child(even) {
+  border-width: 2px;
+  background-color: #002F6C;
+  border: solid #002F6C;
+  color: white; }
+
+/* line 116, ../../css/src/sass/vpr.sass */
+.vpr-squares-flex-2 .flex-card:nth-child(odd) {
+  background-color: #002F6C;
+  border-width: 2px;
+  border: solid #002F6C;
+  color: white; }
+/* line 121, ../../css/src/sass/vpr.sass */
+.vpr-squares-flex-2 .flex-card:nth-child(even) {
+  background-color: white;
+  border-width: 2px;
+  border: solid #eb5f0c;
+  color: #002F6C; }
+
+/* line 128, ../../css/src/sass/vpr.sass */
+.home-news .row {
+  margin-bottom: 20px;
+  max-height: 257px;
+  overflow: hidden; }
+/* line 132, ../../css/src/sass/vpr.sass */
+.home-news .news-img {
+  max-width: 100%;
+  margin-bottom: 10px; }
+/* line 136, ../../css/src/sass/vpr.sass */
+.home-news .news-title h5 {
+  margin-top: 0px; }
+/* line 138, ../../css/src/sass/vpr.sass */
+.home-news .news-title:hover {
+  color: #eb5f0c;
+  curson: pointer; }
+
+/* line 143, ../../css/src/sass/vpr.sass */
+.uva-footer a:hover {
+  text-decoration: none;
+  color: #eb5f0c; }
+/* line 146, ../../css/src/sass/vpr.sass */
+.uva-footer .uva-footer-logo {
+  margin: auto; }
+
+/* line 151, ../../css/src/sass/vpr.sass */
+.sidebar-nav a:hover {
+  color: #eb5f0c; }
+
+/* line 154, ../../css/src/sass/vpr.sass */
+#home-news div:nth-child(1n+4) {
+  display: none; }
+
+/* line 157, ../../css/src/sass/vpr.sass */
+.dotted {
+  background: url(https://news.virginia.edu/sites/default/files/dot-horz-org.png) top left repeat-x;
+  padding-top: 20px !important;
+  margin-top: 20px !important; }
+
+/* line 162, ../../css/src/sass/vpr.sass */
+.navbar-header a:hover, .uva-header-brand a:hover {
+  text-decoration: none; }
+
+/* line 165, ../../css/src/sass/vpr.sass */
+body > div.uva-header-brand.brandbar > div > div > a.pull-right.uva-search > span {
+  display: none; }
+
+/* line 168, ../../css/src/sass/vpr.sass */
+.centered {
+  text-align: center; }
+
+/* line 171, ../../css/src/sass/vpr.sass */
+#rss_feed {
+  display: none !important; }
+
+/* line 175, ../../css/src/sass/vpr.sass */
+a:hover, a:active {
+  color: #eb5f0c; }
+
+/* line 178, ../../css/src/sass/vpr.sass */
+.vpr-callout {
+  margin-top: 5px; }
+
+/* line 181, ../../css/src/sass/vpr.sass */
+ul.grey-info-list {
+  list-style-type: none;
+  padding-left: 0px;
+  margin: 0px; }
+  /* line 185, ../../css/src/sass/vpr.sass */
+  ul.grey-info-list .half-page {
+    width: 50%;
+    background: #dadada;
+    padding: 15px;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+    margin-bottom: 15px; }
+    /* line 192, ../../css/src/sass/vpr.sass */
+    ul.grey-info-list .half-page h3 {
+      margin-top: 5px;
+      margin-bottom: 5px; }
+    /* line 195, ../../css/src/sass/vpr.sass */
+    ul.grey-info-list .half-page img {
+      float: left;
+      width: 150px;
+      padding-right: 15px; }
+  /* line 199, ../../css/src/sass/vpr.sass */
+  ul.grey-info-list li:nth-child(odd) {
+    clear: both; }
+
+/* line 202, ../../css/src/sass/vpr.sass */
+.headshot {
+  float: left;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  min-width: 220px; }
+
+/*# sourceMappingURL=vpr.css.map */

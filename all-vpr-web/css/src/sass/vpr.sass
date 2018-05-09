@@ -1,0 +1,206 @@
+$dk_orange: #eb5f0c
+$dk_blue: #002F6C
+$lt_grey: #dadada
+$dk_grey: #666666
+
+img, iframe
+  max-width: 100%
+
+.site-logo
+  max-width: 180px
+
+.navbar-toggle
+  margin-left: auto
+
+body 
+  font-size: 18px
+
+a
+  .bbb
+    color: white
+    background: $dk_blue
+    font-size: 30px
+    padding: 0.5em 1em
+    display: inline-block
+    margin: 5px
+    border-style: outset
+    border-width: 2px
+    border-color: $dk_grey
+  &:hover
+    .bbb
+      color: $dk_blue
+      background: $dk_orange
+      text-decoration: none
+
+.flex-wrapper
+  display: flex
+  justify-content: center
+  flex-wrap: wrap
+  box-sizing: border-box
+  .wrapper
+    float: left
+    position: relative
+    margin: 5px
+    width: 31.2%
+    min-width: 305px
+    flex-grow: 1
+    img
+      width: 100%
+    .description
+      position: absolute
+      bottom: 0px
+      left: 0px
+      width: 100%
+      background-color: $dk_blue
+      opacity: 0.85
+      .description_content
+        padding: 0.2em 0.5em
+        margin: 0px
+        font-size: 24px
+        color: white
+        text-align: center
+        font-weight: 500
+        line-height: 1em
+        height: 2.4em
+
+.flex-wrapper-fourths
+  a.wrapper
+    width: 24%
+    min-width: 240px
+  
+  
+.zoom-in
+  transition: all .2s ease-in-out
+  &:hover
+    transform: scale(1.03)
+    div.description 
+      p.description_content
+        color: $dk_orange
+
+.vpr-squares-flex
+  display: flex
+  justify-content: center
+  .flex-card
+    width: 25% 
+    text-decoration: none
+    height: 200px
+    flex: 1 1 0
+    max-width: 300px
+    display: flex
+    justify-content: center
+    align-items: center
+    .flex-card-inner
+      text-align: center
+      font-size: 30px
+      padding: 20px
+      line-height: 35px
+      font-weight: 600
+  a.flex-card:hover
+    color: white
+    background-color: $dk_orange
+    border: solid $dk_orange
+    cursor: pointer
+.vpr-squares-flex-1 .flex-card
+  &:nth-child(odd)
+    border-width: 2px
+    background-color: white
+    border: solid $dk_orange
+    color: $dk_blue
+  &:nth-child(even)
+    border-width: 2px
+    background-color: $dk_blue
+    border: solid $dk_blue
+    color: white
+
+.vpr-squares-flex-2 .flex-card
+  &:nth-child(odd)
+    background-color: $dk_blue
+    border-width: 2px
+    border: solid $dk_blue
+    color: white
+  &:nth-child(even)
+    background-color: white
+    border-width: 2px
+    border: solid $dk_orange
+    color: $dk_blue
+
+.home-news
+  .row
+    margin-bottom: 20px
+    max-height: 257px
+    overflow: hidden
+  .news-img
+    max-width: 100%
+    margin-bottom: 10px
+  .news-title
+    h5
+      margin-top: 0px
+    &:hover
+      color: $dk_orange
+      curson: pointer
+
+.uva-footer
+  a:hover
+    text-decoration: none
+    color: $dk_orange
+  .uva-footer-logo
+    margin: auto
+
+
+.sidebar-nav
+  a:hover
+    color: $dk_orange
+
+#home-news div:nth-child(1n+4)
+  display: none
+
+.dotted
+  background: url(https://news.virginia.edu/sites/default/files/dot-horz-org.png) top left repeat-x
+  padding-top: 20px !important
+  margin-top: 20px !important
+
+.navbar-header a:hover, .uva-header-brand a:hover
+  text-decoration: none
+
+body > div.uva-header-brand.brandbar > div > div > a.pull-right.uva-search > span
+  display: none
+
+.centered
+  text-align: center
+
+#rss_feed
+  display: none !important
+
+a
+  &:hover, &:active
+    color: $dk_orange
+
+.vpr-callout
+  margin-top: 5px
+
+ul.grey-info-list 
+  list-style-type: none
+  padding-left: 0px
+  margin: 0px
+  .half-page
+    width: 50%
+    background: $lt_grey
+    padding: 15px
+    margin-left: 7.5px
+    margin-right: 7.5px
+    margin-bottom: 15px
+    h3 
+      margin-top: 5px
+      margin-bottom: 5px
+    img
+      float: left
+      width: 150px
+      padding-right: 15px
+  li:nth-child(odd)
+    clear: both
+    
+.headshot
+  float: left
+  padding-right: 20px
+  padding-bottom: 10px
+  min-width: 220px

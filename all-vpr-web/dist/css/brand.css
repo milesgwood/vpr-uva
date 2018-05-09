@@ -1,0 +1,570 @@
+/* SCSS Document */
+/* UVA Brand Guidelines brand.virginia.edu */
+/*	Franklin Gothic
+ *				Book 400
+ *				Medium 500
+ *				Demi 700
+ *				Heavy 900 */
+/*	Franklin Gothic Condensed
+ *				Book 400
+ *				Demi 700 */
+/*	Franklin Gothic Compressed
+ *				Book 400
+ *				Demi 700 */
+/*	Franklin Gothic Extra Compressed
+ *				Book 400
+ *				Demi 700 */
+h1 {
+  font-family: "franklin-gothic-urw", "arial", sans-serif;
+  font-weight: 700;
+  src: url(../fonts/ITCFranklinGothicStd-Demi.otf);
+  font-size: 3.75em;
+  line-height: 3.75em; }
+
+h2 {
+  font-family: "franklin-gothic-urw-cond", "arial narrow", sans-serif;
+  src: url(../fonts/ITCFranklinGothicStd-DmCd.otf);
+  font-weight: 800;
+  font-size: 2.25em;
+  line-height: 2.25em; }
+
+h3 {
+  font-family: "bodoni-urw", georgia, serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 2.25em;
+  line-height: 1.1em; }
+
+h4 {
+  font-family: "franklin-gothic-urw-cond", "arial narrow", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 1.875em;
+  line-height: 1.1em; }
+
+h5 {
+  font-family: "franklin-gothic-urw", "arial", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 1.875em;
+  line-height: 1.1em; }
+
+.main-content ul {
+  font-family: "franklin-gothic-urw", "arial", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  margin: 15px 0px;
+  padding-left: 40px; }
+
+.container-fluid {
+  max-width: 1200px; }
+
+.main-content {
+  color: #666666; }
+  .main-content p {
+    line-height: 2em; }
+
+/*UVA Brand Guidelines:
+ *	URL: https://brand.virginia.edu/bp/#/brandguidelines/151/section/8542
+ *	CSS Rule: .uva-footer (Author: UVA-VPR-IT/ABL)
+ *	Attribute / Desktop / Mobile
+ *1. Footer / 255px height
+ *2. Logo / 180px wide / 140px wide
+ *3. Padding / T: 50px B: 20px / T: 20px B: 50 L,R: 15px / All: 30px
+ *4. Social Media / 20px H / 20 pxH / 24px H
+ *5. Logo is 1st column, left-most on desktop and top-most on mobile
+ *6. Social media is last column, bottom n tablet/mobile
+ *7. 4 columns, stacked on tablet/mobile */
+.uva-footer {
+  background-color: #002F6C;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-family: "franklin-gothic-urw-cond", "arial narrow", sans-serif;
+  font-weight: 400;
+  src: url(../fonts/ITCFranklinGothicStd-MdCd.otf);
+  font-style: normal;
+  color: #fff;
+  position: static;
+  bottom: 0;
+  width: 100%; }
+
+ul.uva-footer p.uva-footer {
+  color: #fff; }
+
+.uva-footer-logo-col {
+  padding-top: 20px;
+  text-align: center;
+  display: block; }
+
+@media (max-width: 767px) {
+  .uva-footer-logo-col {
+    padding-top: 0px; } }
+.uva-footer-text-col {
+  font-family: "franklin-gothic-urw", "arial", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-weight: normal;
+  font-size: 16px;
+  padding-top: 20px;
+  margin-bottom: 5px; }
+
+@media (min-width: 768px) {
+  .uva-footer-text-col {
+    text-align: left; } }
+.uva-footer-logo {
+  width: 180px;
+  min-height: 120px;
+  background: url(http://www.virginia.edu/vpr/vpr-web/img/uva_centrd_rgb_white.png) center center no-repeat;
+  background-size: 140px; }
+  .uva-footer-logo a {
+    display: block;
+    margin: 0 auto; }
+
+@media (min-width: 768px) {
+  .uva-footer-logo {
+    background-size: 180px; } }
+.uva-footer .contact-label {
+  font-family: "franklin-gothic-urw-cond", "arial narrow", sans-serif;
+  font-weight: 400;
+  src: url(../fonts/ITCFranklinGothicStd-MdCd.otf);
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-transform: uppercase; }
+.uva-footer a {
+  color: #ffffff; }
+  .uva-footer a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+    text-decoration-color: #EB5F0C; }
+.uva-footer .copyright {
+  font-family: "franklin-gothic-urw", "arial", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #9FBAD9; }
+.uva-footer .social-media {
+  font-family: "bodoni-urw", georgia, serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 700;
+  list-style: none; }
+
+/*UVA Brand Guidelines:
+ *	URL: https://brand.virginia.edu/bp/#/brandguidelines/151/section/8538
+ *	CSS Rule: .brandbar (Author: UVA-VPR-IT/ABL) and .nabvar-brand (Bootstrap3)
+ *	Attribute / Desktop / Mobile
+ *1. Brandbar / 106px height / 54px height
+ *2. Logo / 324px wide / 200px wide
+ *3. Top of logo to top of brandbar / 35px / 12px
+ *4. Top of logo to right of window (max content width 1200px) / 30px / 12px
+ *5. Logo is horizonal two-color reverse, link to UVA homepage
+ *
+ *Note: Using Bootstrap 3 navbar-brand includes 15px padding */
+header.header-main {
+  position: fixed;
+  top: 0;
+  padding: 0;
+  margin: 0;
+  min-height: 54px;
+  width: 100%;
+  z-index: 1000; }
+
+@media (min-width: 1200px) {
+  header.header-main {
+    position: static;
+    top: auto; } }
+.brandbar .uva-header-brand {
+  margin: 0 15px; }
+
+.brandbar-content {
+  max-width: 1200px; }
+
+.brandbar {
+  background-color: #002F6C;
+  height: 106px;
+  padding-top: 35px;
+  padding-left: 30px; }
+  .brandbar .uva-logo {
+    background: url(http://www.virginia.edu/vpr/vpr-web/img/uva_horiz_rgb_ko.png) center/contain no-repeat;
+    width: 324px; }
+
+@media (max-width: 767px) {
+  .brandbar {
+    height: 54px;
+    padding-top: 0; } }
+@media (max-width: 767px) {
+  .brandbar .uva-logo {
+    width: 200px;
+    margin-left: -20px; } }
+a.uva-search {
+  display: inline-block;
+  margin-top: 15px;
+  overflow: hidden;
+  background-image: url(http://www.virginia.edu/vpr/vpr-web/img/sprite.png);
+  background-size: 1211px 45px;
+  background-repeat: no-repeat;
+  background-position: -1130px 0px;
+  height: 30px;
+  width: 30px;
+  vertical-align: text-bottom; }
+
+@media (max-width: 767px) {
+  a.uva-search {
+    margin-top: 20px;
+    background-size: 800px 30px;
+    background-position: -745px 0px;
+    height: 20px;
+    width: 20px; } }
+/*UVA Brand Guidelines - Header ("Header Title" = Site Name)
+ *	URL: https://brand.virginia.edu/bp/#/brandguidelines/151/section/8540
+ *	CSS Rule: .uva-header and #site-name (Author: UVA-VPR-IT/ABL) and . (Bootstrap3)
+ *
+ *	General:
+ *1.	Background color: white (#FFF)
+ *2.	Text color Jefferson Blue #002F6C ($brand-primary)
+ *3.	Uppercase Franklin Gothic Condensed Demi
+ *4.	Title vertically aligned in the middle of the header
+ *5.	Header title links back to site landing page
+ *
+ *	Attribute / Desktop / Tablet / Mobile
+ *1.	Height / 90px / 90px / 90px
+ *2.	Font size / 40px / 24px / 18px
+ *3. 	Line height / 36px / 22px / 16px
+ *4.	Left spacing / 30px (1200 max-wdith) / 15px / 10px
+ *5.	Right spacing / 30px / 50px / 50px */
+.uva-header {
+  height: 74px;
+  margin: 0;
+  font-size: 18px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  /*		 	@when-sm {
+   * 		height: 90px;
+   * 		font-size: 24px;
+   * 		line-height: 22px;
+   * 		padding-left: 15px;
+   * 		padding-right: 50px;
+   * 	}
+   * 	@when-md {
+   * 		height: 90px;
+   * 		font-size: 40px;
+   * 		line-height: 36px;
+   * 		padding-left: 30px;
+   * 		padding-right: 30px;
+   * 	} */ }
+
+.vpr-main-nav-wrapper {
+  background-color: #DADADA;
+  width: 100%;
+  clear: both; }
+
+#vpr-main-nav {
+  background-color: #DADADA; }
+
+#site-name {
+  font-family: "franklin-gothic-urw-cond", "arial narrow", sans-serif;
+  font-weight: 400;
+  src: url(../fonts/ITCFranklinGothicStd-MdCd.otf);
+  font-style: normal;
+  font-weight: 700 !important;
+  color: #002F6C;
+  text-transform: uppercase;
+  vertical-align: middle;
+  text-align: left;
+  font-size: 18px;
+  line-height: 16px;
+  margin: 0 25px; }
+
+@media (min-width: 768px) {
+  #site-name {
+    font-size: 24px;
+    line-height: 22px; } }
+@media (min-width: 992px) {
+  #site-name {
+    font-size: 40px;
+    line-height: 36px; } }
+/*UVA Brand Guidelines - Navigation Bar (Site-level navigation)
+ *	URL: https://brand.virginia.edu/bp/#/brandguidelines/151/section/8540
+ *	CSS Rule: navbar-uva-site
+ *
+ *	General:
+ *1. Background color: medium gray #dadada ($gray)
+ *2. Text color: Jefferson Blue #002F6C ($brand-primary)
+ *
+ *	Hover (Desktop Only):
+ *1. Background color: white #fff
+ *2. Text: Dark Orange #eb5f0c ($brand-secondary)
+ *
+ *	Attribute 	/ Desktop 			/ Tablet
+ *------------------------------------------------------
+ *1. Font 		/ Franklin Gothic Demi UPPERCASE / Franklin Gothic Demi Italic UPPERCASE
+ *2. Font size 	/ 15px 				/ 14px
+ *3. Line height 	/ 15px 				/ 20px
+ *4. Padding 		/ L: 5px, R: 5px 	/ 20px
+ *5. Height 		/ 50px 				/ auto */
+.uva-site-title {
+  background-color: #fff; }
+
+.navbar-uva-site {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+  font-family: "franklin-gothic-urw-cond", "arial narrow", sans-serif;
+  font-weight: 400;
+  src: url(../fonts/ITCFranklinGothicStd-MdCd.otf);
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15px;
+  text-transform: uppercase;
+  background-color: #DADADA;
+  border-color: #DADADA; }
+  .navbar-uva-site .navbar-brand {
+    color: #002F6C; }
+    .navbar-uva-site .navbar-brand:hover, .navbar-uva-site .navbar-brand:focus {
+      color: #EB5F0C; }
+  .navbar-uva-site .navbar-text {
+    color: #002F6C; }
+  .navbar-uva-site .navbar-nav > ul {
+    padding-left: 15px; }
+  .navbar-uva-site .navbar-nav > li > a {
+    width: 100%;
+    margin: 0 5px;
+    color: #002F6C; }
+    .navbar-uva-site .navbar-nav > li > a:hover, .navbar-uva-site .navbar-nav > li > a:focus {
+      color: #EB5F0C; }
+  .navbar-uva-site .navbar-nav > .dropdown-menu {
+    background-color: #DADADA; }
+    .navbar-uva-site .navbar-nav > .dropdown-menu > li > a {
+      color: #002F6C; }
+      .navbar-uva-site .navbar-nav > .dropdown-menu > li > a:hover, .navbar-uva-site .navbar-nav > .dropdown-menu > li > a:focus {
+        color: #EB5F0C;
+        background-color: #DADADA; }
+    .navbar-uva-site .navbar-nav > .dropdown-menu > li.divider {
+      background-color: #DADADA; }
+  .navbar-uva-site .open .dropdown-menu > .active > a {
+    color: #EB5F0C;
+    background-color: #DADADA; }
+    .navbar-uva-site .open .dropdown-menu > .active > a:hover, .navbar-uva-site .open .dropdown-menu > .active > a:focus {
+      color: #EB5F0C;
+      background-color: #DADADA; }
+  .navbar-uva-site > .active > a {
+    color: #EB5F0C;
+    background-color: #DADADA; }
+    .navbar-uva-site > .active > a:hover, .navbar-uva-site > .active > a:focus {
+      color: #EB5F0C;
+      background-color: #DADADA; }
+  .navbar-uva-site > .open > a {
+    color: #EB5F0C;
+    background-color: #DADADA; }
+    .navbar-uva-site > .open > a:hover, .navbar-uva-site > .open > a:focus {
+      color: #EB5F0C;
+      background-color: #DADADA; }
+
+.navbar-toggle {
+  border-color: #DADADA; }
+  .navbar-toggle:hover, .navbar-toggle:focus {
+    background-color: #DADADA; }
+  .navbar-toggle .icon-bar {
+    background-color: #002F6C; }
+
+.navbar-collapse, .navbar-form {
+  border-color: #002F6C; }
+
+.navbar-link {
+  color: #002F6C; }
+  .navbar-link:hover {
+    color: #EB5F0C; }
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #002F6C; }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+      color: #EB5F0C; }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a {
+    color: #EB5F0C;
+    background-color: #DADADA; }
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+      color: #EB5F0C;
+      background-color: #DADADA; } }
+/*UVA VPR Header Image */
+.full-width {
+  margin: 0 auto;
+  padding: 0; }
+
+#header-img, #header-img-rotunda {
+  background-color: #002f6c;
+  margin-bottom: 10px;
+  margin-top: -20px;
+  border-top: 0.5px solid #e57200; }
+
+@media (min-width: 768px) {
+  #header-img {
+    border: none;
+    background: url(http://www.virginia.edu/vpr/vpr-web/img/header.jpg) no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    height: 250px;
+    margin-top: -20px; } }
+@media (min-width: 768px) {
+  #header-img-rotunda {
+    border: none;
+    background: url(http://www.virginia.edu/vpr/vpr-web/img/header-rotunda.jpg) no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    height: 250px;
+    margin-top: -20px; } }
+/*UVA VPR Sidebar Navigation */
+#sidebar {
+  padding-left: 25px; }
+
+.vpr-site-title a {
+  font-family: "franklin-gothic-comp-urw", "arial narrow", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  src: url(../fonts/ITCFranklinGothicStd-DemiIt.otf);
+  font-size: 1em;
+  line-height: 0.1em;
+  color: #002f6c;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+  text-decoration: none; }
+  .vpr-site-title a:link, .vpr-site-title a:visited, .vpr-site-title a:hover, .vpr-site-title a:active, .vpr-site-title a:focus {
+    font-family: "franklin-gothic-comp-urw", "arial narrow", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    src: url(../fonts/ITCFranklinGothicStd-DemiIt.otf);
+    font-size: 1em;
+    line-height: 0.1em;
+    color: #002f6c;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    text-decoration: none; }
+
+.sidebar-nav {
+  list-style-type: none;
+  text-align: left;
+  margin: 0;
+  float: left;
+  padding-left: 0;
+  padding-bottom: 1em; }
+  .sidebar-nav a {
+    text-decoration: none;
+    color: inherit; }
+    .sidebar-nav a:link, .sidebar-nav a:visited, .sidebar-nav a:hover, .sidebar-nav a:active, .sidebar-nav a:focus {
+      text-decoration: none;
+      color: inherit; }
+
+li.sidebar-nav:before {
+  white-space: pre-wrap;
+  content: "\a";
+  line-height: 0.1em; }
+
+.sidebar-nav-item {
+  font-family: "franklin-gothic-comp-urw", "arial narrow", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  src: url(../fonts/ITCFranklinGothicStd-DemiIt.otf);
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #002f6c;
+  margin: 0;
+  padding-top: 0.6em;
+  padding-right: 1.1em;
+  font-size: 1.6em;
+  line-height: 1.1em; }
+
+.nav-item-active {
+  background: url("../../img/orange-nav-arrow.png") right 1.25 no-repeat;
+  margin-right: 1em;
+  color: #eb5f0c; }
+
+/*UVA VPR Main Content - Page Sub-Header */
+.vpr-page-title {
+  font-family: "franklin-gothic-comp-urw", "arial narrow", sans-serif;
+  font-weight: 800;
+  src: url(../fonts/ITCFranklinGothicStd-Hvy.otf);
+  font-size: 4em;
+  color: #002f6c;
+  line-height: 1em; }
+
+/*UVA VPR Main Content */
+.main-content {
+  min-height: 400px;
+  color: #666666;
+  margin-left: 10px;
+  margin-right: 10px; }
+
+.section-heading {
+  font-family: "franklin-gothic-comp-urw", "arial narrow", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  src: url(../fonts/ITCFranklinGothicStd-DemiIt.otf);
+  color: #002f6c;
+  text-transform: uppercase; }
+
+/*UVA VPR Home Page Content */
+h3.vpr-callout {
+  font-family: "bodoni-urw", georgia, serif;
+  font-weight: 900;
+  font-style: italic;
+  border-bottom: 2px solid #eb5f0c; }
+
+a.vpr-callout:hover {
+  color: #002f6c;
+  text-decoration: underline;
+  text-decoration-color: #eb5f0c; }
+
+.vpr-squares {
+  margin: 1.5em 0; }
+
+.square {
+  height: 14em;
+  text-align: center;
+  padding: 1em 0.25em; }
+
+@media (min-width: 992px) {
+  .square {
+    height: 16em;
+    padding-top: 1.5em; } }
+.square-title {
+  font-size: 2em; }
+
+@media (min-width: 768px) {
+  .square-title {
+    font-size: 1.8em;
+    padding-right: 1em; } }
+.square-odd-row-even-col {
+  color: #002f6c;
+  background-color: #fff;
+  border: 2px solid #eb5f0c; }
+
+.square-odd-row-odd-col {
+  color: #fff;
+  background-color: #002f6c;
+  border: 2px solid #002f6c; }
+
+@media (max-width: 767px) {
+  .square-even-row-even-col {
+    color: #002f6c;
+    background-color: #fff;
+    border: 2px solid #eb5f0c; } }
+@media (min-width: 768px) {
+  .square-even-row-even-col {
+    color: #fff;
+    background-color: #002f6c;
+    border: 2px solid #002f6c; } }
+@media (max-width: 767px) {
+  .square-even-row-odd-col {
+    color: #fff;
+    background-color: #002f6c;
+    border: 2px solid #002f6c; } }
+@media (min-width: 768px) {
+  .square-even-row-odd-col {
+    color: #002f6c;
+    background-color: #fff;
+    border: 2px solid #eb5f0c; } }
