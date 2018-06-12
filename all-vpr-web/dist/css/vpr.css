@@ -1,20 +1,21 @@
 /* line 6, ../../css/src/sass/vpr.sass */
-img, iframe {
-  max-width: 100%; }
+img, iframe, video {
+  max-width: 100%;
+  display: block; }
 
-/* line 9, ../../css/src/sass/vpr.sass */
+/* line 10, ../../css/src/sass/vpr.sass */
 .site-logo {
   max-width: 180px; }
 
-/* line 12, ../../css/src/sass/vpr.sass */
+/* line 13, ../../css/src/sass/vpr.sass */
 .navbar-toggle {
   margin-left: auto; }
 
-/* line 15, ../../css/src/sass/vpr.sass */
+/* line 16, ../../css/src/sass/vpr.sass */
 body {
   font-size: 18px; }
 
-/* line 19, ../../css/src/sass/vpr.sass */
+/* line 20, ../../css/src/sass/vpr.sass */
 a .bbb {
   color: white;
   background: #002F6C;
@@ -27,19 +28,19 @@ a .bbb {
   border-width: 2px;
   border-color: #666666;
   font-weight: 600; }
-/* line 32, ../../css/src/sass/vpr.sass */
+/* line 33, ../../css/src/sass/vpr.sass */
 a:hover .bbb {
   color: #002F6C;
   background: #eb5f0c;
   text-decoration: none; }
 
-/* line 37, ../../css/src/sass/vpr.sass */
+/* line 38, ../../css/src/sass/vpr.sass */
 .flex-wrapper {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   box-sizing: border-box; }
-  /* line 42, ../../css/src/sass/vpr.sass */
+  /* line 43, ../../css/src/sass/vpr.sass */
   .flex-wrapper .wrapper {
     float: left;
     position: relative;
@@ -47,10 +48,10 @@ a:hover .bbb {
     width: 31.2%;
     min-width: 305px;
     flex-grow: 1; }
-    /* line 49, ../../css/src/sass/vpr.sass */
+    /* line 50, ../../css/src/sass/vpr.sass */
     .flex-wrapper .wrapper img {
       width: 100%; }
-    /* line 51, ../../css/src/sass/vpr.sass */
+    /* line 52, ../../css/src/sass/vpr.sass */
     .flex-wrapper .wrapper .description {
       position: absolute;
       bottom: 0px;
@@ -58,7 +59,7 @@ a:hover .bbb {
       width: 100%;
       background-color: #002F6C;
       opacity: 0.85; }
-      /* line 58, ../../css/src/sass/vpr.sass */
+      /* line 59, ../../css/src/sass/vpr.sass */
       .flex-wrapper .wrapper .description .description_content {
         padding: 0.2em 0.5em;
         margin: 0px;
@@ -69,26 +70,26 @@ a:hover .bbb {
         line-height: 1em;
         height: 2.4em; }
 
-/* line 69, ../../css/src/sass/vpr.sass */
+/* line 70, ../../css/src/sass/vpr.sass */
 .flex-wrapper-fourths a.wrapper {
   width: 24%;
   min-width: 240px; }
 
-/* line 74, ../../css/src/sass/vpr.sass */
+/* line 75, ../../css/src/sass/vpr.sass */
 .zoom-in {
   transition: all 0.2s ease-in-out; }
-  /* line 76, ../../css/src/sass/vpr.sass */
+  /* line 77, ../../css/src/sass/vpr.sass */
   .zoom-in:hover {
     transform: scale(1.03); }
-    /* line 79, ../../css/src/sass/vpr.sass */
+    /* line 80, ../../css/src/sass/vpr.sass */
     .zoom-in:hover div.description p.description_content {
       color: #eb5f0c; }
 
-/* line 82, ../../css/src/sass/vpr.sass */
+/* line 83, ../../css/src/sass/vpr.sass */
 .vpr-squares-flex {
   display: flex;
   justify-content: center; }
-  /* line 85, ../../css/src/sass/vpr.sass */
+  /* line 86, ../../css/src/sass/vpr.sass */
   .vpr-squares-flex .flex-card {
     width: 25%;
     text-decoration: none;
@@ -98,115 +99,115 @@ a:hover .bbb {
     display: flex;
     justify-content: center;
     align-items: center; }
-    /* line 94, ../../css/src/sass/vpr.sass */
+    /* line 95, ../../css/src/sass/vpr.sass */
     .vpr-squares-flex .flex-card .flex-card-inner {
       text-align: center;
       font-size: 30px;
       padding: 20px;
       line-height: 35px;
       font-weight: 600; }
-  /* line 100, ../../css/src/sass/vpr.sass */
+  /* line 101, ../../css/src/sass/vpr.sass */
   .vpr-squares-flex a.flex-card:hover {
     color: white;
     background-color: #eb5f0c;
     border: solid #eb5f0c;
     cursor: pointer; }
 
-/* line 106, ../../css/src/sass/vpr.sass */
+/* line 107, ../../css/src/sass/vpr.sass */
 .vpr-squares-flex-1 .flex-card:nth-child(odd) {
   border-width: 2px;
   background-color: white;
   border: solid #eb5f0c;
   color: #002F6C; }
-/* line 111, ../../css/src/sass/vpr.sass */
+/* line 112, ../../css/src/sass/vpr.sass */
 .vpr-squares-flex-1 .flex-card:nth-child(even) {
   border-width: 2px;
   background-color: #002F6C;
   border: solid #002F6C;
   color: white; }
 
-/* line 118, ../../css/src/sass/vpr.sass */
+/* line 119, ../../css/src/sass/vpr.sass */
 .vpr-squares-flex-2 .flex-card:nth-child(odd) {
   background-color: #002F6C;
   border-width: 2px;
   border: solid #002F6C;
   color: white; }
-/* line 123, ../../css/src/sass/vpr.sass */
+/* line 124, ../../css/src/sass/vpr.sass */
 .vpr-squares-flex-2 .flex-card:nth-child(even) {
   background-color: white;
   border-width: 2px;
   border: solid #eb5f0c;
   color: #002F6C; }
 
-/* line 130, ../../css/src/sass/vpr.sass */
+/* line 131, ../../css/src/sass/vpr.sass */
 .home-news .row {
   margin-bottom: 20px;
   max-height: 257px;
   overflow: hidden; }
-/* line 134, ../../css/src/sass/vpr.sass */
+/* line 135, ../../css/src/sass/vpr.sass */
 .home-news .news-img {
   max-width: 100%;
   margin-bottom: 10px; }
-/* line 138, ../../css/src/sass/vpr.sass */
+/* line 139, ../../css/src/sass/vpr.sass */
 .home-news .news-title h5 {
   margin-top: 0px; }
-/* line 140, ../../css/src/sass/vpr.sass */
+/* line 141, ../../css/src/sass/vpr.sass */
 .home-news .news-title:hover {
   color: #eb5f0c;
   curson: pointer; }
 
-/* line 145, ../../css/src/sass/vpr.sass */
+/* line 146, ../../css/src/sass/vpr.sass */
 .uva-footer a:hover {
   text-decoration: none;
   color: #eb5f0c; }
-/* line 148, ../../css/src/sass/vpr.sass */
+/* line 149, ../../css/src/sass/vpr.sass */
 .uva-footer .uva-footer-logo {
   margin: auto; }
 
-/* line 153, ../../css/src/sass/vpr.sass */
+/* line 154, ../../css/src/sass/vpr.sass */
 .sidebar-nav a:hover {
   color: #eb5f0c; }
 
-/* line 156, ../../css/src/sass/vpr.sass */
+/* line 157, ../../css/src/sass/vpr.sass */
 #home-news div:nth-child(1n+4) {
   display: none; }
 
-/* line 159, ../../css/src/sass/vpr.sass */
+/* line 160, ../../css/src/sass/vpr.sass */
 .dotted {
   background: url(https://news.virginia.edu/sites/default/files/dot-horz-org.png) top left repeat-x;
   padding-top: 20px !important;
   margin-top: 20px !important; }
 
-/* line 164, ../../css/src/sass/vpr.sass */
+/* line 165, ../../css/src/sass/vpr.sass */
 .navbar-header a:hover, .uva-header-brand a:hover {
   text-decoration: none; }
 
-/* line 167, ../../css/src/sass/vpr.sass */
+/* line 168, ../../css/src/sass/vpr.sass */
 body > div.uva-header-brand.brandbar > div > div > a.pull-right.uva-search > span {
   display: none; }
 
-/* line 170, ../../css/src/sass/vpr.sass */
+/* line 171, ../../css/src/sass/vpr.sass */
 .centered {
   text-align: center; }
 
-/* line 173, ../../css/src/sass/vpr.sass */
+/* line 174, ../../css/src/sass/vpr.sass */
 #rss_feed {
   display: none !important; }
 
-/* line 177, ../../css/src/sass/vpr.sass */
+/* line 178, ../../css/src/sass/vpr.sass */
 a:hover, a:active {
   color: #eb5f0c; }
 
-/* line 180, ../../css/src/sass/vpr.sass */
+/* line 181, ../../css/src/sass/vpr.sass */
 .vpr-callout {
   margin-top: 5px; }
 
-/* line 183, ../../css/src/sass/vpr.sass */
+/* line 184, ../../css/src/sass/vpr.sass */
 ul.grey-info-list {
   list-style-type: none;
   padding-left: 0px;
   margin: 0px; }
-  /* line 187, ../../css/src/sass/vpr.sass */
+  /* line 188, ../../css/src/sass/vpr.sass */
   ul.grey-info-list .half-page {
     width: 50%;
     background: #dadada;
@@ -214,20 +215,20 @@ ul.grey-info-list {
     margin-left: 7.5px;
     margin-right: 7.5px;
     margin-bottom: 15px; }
-    /* line 194, ../../css/src/sass/vpr.sass */
+    /* line 195, ../../css/src/sass/vpr.sass */
     ul.grey-info-list .half-page h3 {
       margin-top: 5px;
       margin-bottom: 5px; }
-    /* line 197, ../../css/src/sass/vpr.sass */
+    /* line 198, ../../css/src/sass/vpr.sass */
     ul.grey-info-list .half-page img {
       float: left;
       width: 150px;
       padding-right: 15px; }
-  /* line 201, ../../css/src/sass/vpr.sass */
+  /* line 202, ../../css/src/sass/vpr.sass */
   ul.grey-info-list li:nth-child(odd) {
     clear: both; }
 
-/* line 204, ../../css/src/sass/vpr.sass */
+/* line 205, ../../css/src/sass/vpr.sass */
 .headshot {
   float: left;
   padding-right: 20px;
