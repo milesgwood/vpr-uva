@@ -76,7 +76,7 @@ h5 {
  *6. Social media is last column, bottom n tablet/mobile
  *7. 4 columns, stacked on tablet/mobile */
 .uva-footer {
-  background-color: #002F6C;
+  background-color: #232D4B;
   padding-top: 30px;
   padding-bottom: 20px;
   font-family: "franklin-gothic-urw-cond", "arial narrow", sans-serif;
@@ -182,7 +182,7 @@ header.header-main {
   max-width: 1200px; }
 
 .brandbar {
-  background-color: #002F6C;
+  background-color: #232D4B;
   height: 106px;
   padding-top: 35px;
   padding-left: 30px; }
@@ -223,7 +223,7 @@ a.uva-search {
  *
  *	General:
  *1.	Background color: white (#FFF)
- *2.	Text color Jefferson Blue #002F6C ($brand-primary)
+ *2.	Text color Jefferson Blue #232D4B ($brand-primary)
  *3.	Uppercase Franklin Gothic Condensed Demi
  *4.	Title vertically aligned in the middle of the header
  *5.	Header title links back to site landing page
@@ -270,7 +270,7 @@ a.uva-search {
   src: url(../fonts/ITCFranklinGothicStd-MdCd.otf);
   font-style: normal;
   font-weight: 700 !important;
-  color: #002F6C;
+  color: #232D4B;
   text-transform: uppercase;
   vertical-align: middle;
   text-align: left;
@@ -292,7 +292,7 @@ a.uva-search {
  *
  *	General:
  *1. Background color: medium gray #dadada ($gray)
- *2. Text color: Jefferson Blue #002F6C ($brand-primary)
+ *2. Text color: Jefferson Blue #232D4B ($brand-primary)
  *
  *	Hover (Desktop Only):
  *1. Background color: white #fff
@@ -322,23 +322,23 @@ a.uva-search {
   background-color: #DADADA;
   border-color: #DADADA; }
   .navbar-uva-site .navbar-brand {
-    color: #002F6C; }
+    color: #232D4B; }
     .navbar-uva-site .navbar-brand:hover, .navbar-uva-site .navbar-brand:focus {
       color: #EB5F0C; }
   .navbar-uva-site .navbar-text {
-    color: #002F6C; }
+    color: #232D4B; }
   .navbar-uva-site .navbar-nav > ul {
     padding-left: 15px; }
   .navbar-uva-site .navbar-nav > li > a {
     width: 100%;
     margin: 0 5px;
-    color: #002F6C; }
+    color: #232D4B; }
     .navbar-uva-site .navbar-nav > li > a:hover, .navbar-uva-site .navbar-nav > li > a:focus {
       color: #EB5F0C; }
   .navbar-uva-site .navbar-nav > .dropdown-menu {
     background-color: #DADADA; }
     .navbar-uva-site .navbar-nav > .dropdown-menu > li > a {
-      color: #002F6C; }
+      color: #232D4B; }
       .navbar-uva-site .navbar-nav > .dropdown-menu > li > a:hover, .navbar-uva-site .navbar-nav > .dropdown-menu > li > a:focus {
         color: #EB5F0C;
         background-color: #DADADA; }
@@ -368,19 +368,19 @@ a.uva-search {
   .navbar-toggle:hover, .navbar-toggle:focus {
     background-color: #DADADA; }
   .navbar-toggle .icon-bar {
-    background-color: #002F6C; }
+    background-color: #232D4B; }
 
 .navbar-collapse, .navbar-form {
-  border-color: #002F6C; }
+  border-color: #232D4B; }
 
 .navbar-link {
-  color: #002F6C; }
+  color: #232D4B; }
   .navbar-link:hover {
     color: #EB5F0C; }
 
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #002F6C; }
+    color: #232D4B; }
     .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
       color: #EB5F0C; }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a {
@@ -395,7 +395,7 @@ a.uva-search {
   padding: 0; }
 
 #header-img, #header-img-rotunda {
-  background-color: #002f6c;
+  background-color: #232D4B;
   margin-bottom: 10px;
   margin-top: -20px;
   border-top: 0.5px solid #e57200; }
@@ -427,7 +427,7 @@ a.uva-search {
   src: url(../fonts/ITCFranklinGothicStd-DemiIt.otf);
   font-size: 1em;
   line-height: 0.1em;
-  color: #002f6c;
+  color: #232D4B;
   text-transform: uppercase;
   margin-bottom: 25px;
   padding-bottom: 25px;
@@ -439,7 +439,7 @@ a.uva-search {
     src: url(../fonts/ITCFranklinGothicStd-DemiIt.otf);
     font-size: 1em;
     line-height: 0.1em;
-    color: #002f6c;
+    color: #232D4B;
     text-transform: uppercase;
     margin-bottom: 25px;
     padding-bottom: 25px;
@@ -471,7 +471,7 @@ li.sidebar-nav:before {
   src: url(../fonts/ITCFranklinGothicStd-DemiIt.otf);
   text-transform: uppercase;
   text-decoration: none;
-  color: #002f6c;
+  color: #232D4B;
   margin: 0;
   padding-top: 0.6em;
   padding-right: 1.1em;
@@ -489,7 +489,7 @@ li.sidebar-nav:before {
   font-weight: 800;
   src: url(../fonts/ITCFranklinGothicStd-Hvy.otf);
   font-size: 4em;
-  color: #002f6c;
+  color: #232D4B;
   line-height: 1em; }
 
 /*UVA VPR Main Content */
@@ -504,7 +504,7 @@ li.sidebar-nav:before {
   font-weight: 800;
   font-style: italic;
   src: url(../fonts/ITCFranklinGothicStd-DemiIt.otf);
-  color: #002f6c;
+  color: #232D4B;
   text-transform: uppercase; }
 
 /*UVA VPR Home Page Content */
@@ -515,7 +515,7 @@ h3.vpr-callout {
   border-bottom: 2px solid #eb5f0c; }
 
 a.vpr-callout:hover {
-  color: #002f6c;
+  color: #232D4B;
   text-decoration: underline;
   text-decoration-color: #eb5f0c; }
 
@@ -539,32 +539,32 @@ a.vpr-callout:hover {
     font-size: 1.8em;
     padding-right: 1em; } }
 .square-odd-row-even-col {
-  color: #002f6c;
+  color: #232D4B;
   background-color: #fff;
   border: 2px solid #eb5f0c; }
 
 .square-odd-row-odd-col {
   color: #fff;
-  background-color: #002f6c;
-  border: 2px solid #002f6c; }
+  background-color: #232D4B;
+  border: 2px solid #232D4B; }
 
 @media (max-width: 767px) {
   .square-even-row-even-col {
-    color: #002f6c;
+    color: #232D4B;
     background-color: #fff;
     border: 2px solid #eb5f0c; } }
 @media (min-width: 768px) {
   .square-even-row-even-col {
     color: #fff;
-    background-color: #002f6c;
-    border: 2px solid #002f6c; } }
+    background-color: #232D4B;
+    border: 2px solid #232D4B; } }
 @media (max-width: 767px) {
   .square-even-row-odd-col {
     color: #fff;
-    background-color: #002f6c;
-    border: 2px solid #002f6c; } }
+    background-color: #232D4B;
+    border: 2px solid #232D4B; } }
 @media (min-width: 768px) {
   .square-even-row-odd-col {
-    color: #002f6c;
+    color: #232D4B;
     background-color: #fff;
     border: 2px solid #eb5f0c; } }
