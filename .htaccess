@@ -17,6 +17,10 @@ Redirect /vpr/threeCavalier /vpr/3Cavaliers
 Redirect /vpr/threeCavaliers /vpr/3Cavaliers
 Redirect /vpr/baygame /vpr/sustain/BayGame
 Redirect /vpr/baygame.html /vpr/sustain/BayGame
-Redirect 301 /vpr/resilience https://eri.virginia.edu
+
 
 # milesgwood vpr redirects
+Redirect 301 /vpr/resilience https://eri.virginia.edu
+Redirect 301 "/vpr/Research Development/index.html" /vpr/resources-for-researchers/research-development.html
+Redirect 301 "/vpr/Research Development/internalfund.html" /vpr/resources-for-researchers/internalfund.html
+Redirect 301 "/vpr/Research Development/researchnet.html" /vpr/resources-for-researchers/research-net.html
