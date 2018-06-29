@@ -1,0 +1,22 @@
+RewriteEngine On
+# Redirect rules
+Redirect /vpr/gradstudies/index.html http://gradstudies.virginia.edu
+Redirect /vpr/gradstudies/contactus.html http://gradstudies.virginia.edu
+Redirect /vpr/gradstudies/aboutus.html http://gradstudies.virginia.edu
+Redirect /vpr/postdoc/index.html http://postdoc.virginia.edu
+Redirect /vpr/gradstudies http://gradstudies.virginia.edu
+Redirect /vpr/ecup http://www.entrepreneurshipcup.com
+
+# Fix case-sensitivity for 3C site - abl9h 1/25/2017
+Redirect /vpr/3cavaliers /vpr/3Cavaliers
+Redirect /vpr/3cavalier /vpr/3Cavaliers
+Redirect /vpr/3Cavalier /vpr/3Cavaliers
+Redirect /vpr/threecavalier /vpr/3Cavaliers
+Redirect /vpr/threecavaliers /vpr/3Cavaliers
+Redirect /vpr/threeCavalier /vpr/3Cavaliers
+Redirect /vpr/threeCavaliers /vpr/3Cavaliers
+Redirect /vpr/baygame /vpr/sustain/BayGame
+Redirect /vpr/baygame.html /vpr/sustain/BayGame
+Redirect 301 /vpr/resilience https://eri.virginia.edu
+
+# milesgwood vpr redirects
