@@ -48,10 +48,10 @@ if (!String.prototype.endsWith) {
 			throw response.message;
 		  }
 		  
-//		  console.log(response);
-//This creates the news items but hides them as the RSS display is horrid
+      //		  console.log(response);
+      //This creates the news items but hides them as the RSS display is horrid
 			var item = response.items[0];
-			var fragment = create("<a href='../../js/" + item.link + "'><h3>" + item.title + "</h3></a><span>" + item.pubDate + "</span><p>" + item.content + "</p>");
+			var fragment = create("<a href='" + item.link + "'><h3>" + item.title + "</h3></a><span>" + item.pubDate + "</span><p>" + item.content + "</p>");
 			document.getElementById('rss_feed').appendChild(fragment);
 			add_dynamic_news_items();
 		});
@@ -185,15 +185,16 @@ if (!String.prototype.endsWith) {
 		var number_of_articles = titles.length;
 		number_of_articles = Math.min(number_of_articles, bodies.length);
 		number_of_articles = Math.min(number_of_articles, more_link.length);
+    console.log("More Links for News" , more_link)
 		
 		for(var i = 0 ; i < number_of_articles; i++){
 			var news_item  = document.createElement("div");
-			news_item.innerHTML = "<div class='row'><div class='col-sm-4'><a href='../../js/" + 
+			news_item.innerHTML = "<div class='row'><div class='col-sm-4'><a href='" + 
 				more_link[i].href + 
 				"'><img class='news-img' src='all-vpr-web/img/brand/sized-3-2/" + news_images[i % news_images.length] + "'/></a></div>"+
-				"<div class='col-sm-8'><div class='news-title'><a class='news-link' href='../../js/" + more_link[i].href + "'><h5>" + 
+				"<div class='col-sm-8'><div class='news-title'><a class='news-link' href='" + more_link[i].href + "'><h5>" + 
 				titles[i] + "</h5></a></div><p class='news'>" + 
-				bodies[i].innerText + " <a href='../../js/"+ 
+				bodies[i].innerText + " <a href='"+ 
 				more_link[i].href +"'>Read More</a></p></div></div>";
 			$('#home-news').append(news_item);
 		}
