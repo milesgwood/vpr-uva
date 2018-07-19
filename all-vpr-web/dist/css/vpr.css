@@ -229,13 +229,25 @@ ul.grey-info-list {
     clear: both; }
 
 /* line 205, ../../css/src/sass/vpr.sass */
+.onboarding-info {
+  margin-left: 25px; }
+  /* line 207, ../../css/src/sass/vpr.sass */
+  .onboarding-info h4:first-child {
+    margin-top: 7px;
+    margin-bottom: 7px; }
+  /* line 210, ../../css/src/sass/vpr.sass */
+  .onboarding-info h4 {
+    margin-top: 14px;
+    margin-bottom: 7px; }
+
+/* line 214, ../../css/src/sass/vpr.sass */
 .headshot {
   float: left;
   padding-right: 20px;
   padding-bottom: 10px;
   min-width: 220px; }
 
-/* line 211, ../../css/src/sass/vpr.sass */
+/* line 220, ../../css/src/sass/vpr.sass */
 .bold {
   font-weight: bold; }
 
