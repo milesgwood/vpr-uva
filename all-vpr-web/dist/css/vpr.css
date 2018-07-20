@@ -203,11 +203,20 @@ a:hover, a:active {
   margin-top: 5px; }
 
 /* line 184, ../../css/src/sass/vpr.sass */
+h5.vpr-callout {
+  font-family: "franklin-gothic-urw", "arial", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 1.375em;
+  line-height: 1.1em;
+  border-bottom: 2px solid #eb5f0c; }
+
+/* line 192, ../../css/src/sass/vpr.sass */
 ul.grey-info-list {
   list-style-type: none;
   padding-left: 0px;
   margin: 0px; }
-  /* line 188, ../../css/src/sass/vpr.sass */
+  /* line 196, ../../css/src/sass/vpr.sass */
   ul.grey-info-list .half-page {
     width: 50%;
     background: #dadada;
@@ -215,39 +224,39 @@ ul.grey-info-list {
     margin-left: 7.5px;
     margin-right: 7.5px;
     margin-bottom: 15px; }
-    /* line 195, ../../css/src/sass/vpr.sass */
+    /* line 203, ../../css/src/sass/vpr.sass */
     ul.grey-info-list .half-page h3 {
       margin-top: 5px;
       margin-bottom: 5px; }
-    /* line 198, ../../css/src/sass/vpr.sass */
+    /* line 206, ../../css/src/sass/vpr.sass */
     ul.grey-info-list .half-page img {
       float: left;
       width: 150px;
       padding-right: 15px; }
-  /* line 202, ../../css/src/sass/vpr.sass */
+  /* line 210, ../../css/src/sass/vpr.sass */
   ul.grey-info-list li:nth-child(odd) {
     clear: both; }
 
-/* line 205, ../../css/src/sass/vpr.sass */
+/* line 213, ../../css/src/sass/vpr.sass */
 .onboarding-info {
   margin-left: 25px; }
-  /* line 207, ../../css/src/sass/vpr.sass */
+  /* line 215, ../../css/src/sass/vpr.sass */
   .onboarding-info h4:first-child {
     margin-top: 7px;
     margin-bottom: 7px; }
-  /* line 210, ../../css/src/sass/vpr.sass */
+  /* line 218, ../../css/src/sass/vpr.sass */
   .onboarding-info h4 {
     margin-top: 14px;
     margin-bottom: 7px; }
 
-/* line 214, ../../css/src/sass/vpr.sass */
+/* line 222, ../../css/src/sass/vpr.sass */
 .headshot {
   float: left;
   padding-right: 20px;
   padding-bottom: 10px;
   min-width: 220px; }
 
-/* line 220, ../../css/src/sass/vpr.sass */
+/* line 228, ../../css/src/sass/vpr.sass */
 .bold {
   font-weight: bold; }
 
