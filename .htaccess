@@ -31,3 +31,7 @@ Redirect 301 "/vpr/Research Development/internalfund.html" /vpr/resources-for-re
 Redirect 301 "/vpr/Research Development/researchnet.html" /vpr/resources-for-researchers/research-net.html
 Redirect 301 "/vpr/Research Development/training.html" /vpr/resources-for-researchers/externalfund.html
 Redirect 301 "/vpr/Research Development/externalfund.html" /vpr/resources-for-researchers/externalfund.html
+Redirect 301 "/vpr/Research Development/contact.html" /vpr/resources-for-researchers/research-development.html
+Redirect 301 "/vpr/Research Development/events.html" /vpr/resources-for-researchers/research-development.html
+Redirect 301 "/vpr/Research Development/funding.html" /vpr/resources-for-researchers/research-development.html
+Redirect 301 "/vpr/Research Development/members.html" /vpr/resources-for-researchers/research-development.html
