@@ -29,3 +29,5 @@ Redirect 301 /vpr/resilience https://eri.virginia.edu
 Redirect 301 "/vpr/Research Development/index.html" /vpr/resources-for-researchers/research-development.html
 Redirect 301 "/vpr/Research Development/internalfund.html" /vpr/resources-for-researchers/internalfund.html
 Redirect 301 "/vpr/Research Development/researchnet.html" /vpr/resources-for-researchers/research-net.html
+Redirect 301 "/vpr/Research Development/training.html" /vpr/resources-for-researchers/externalfund.html
+Redirect 301 "/vpr/Research Development/externalfund.html" /vpr/resources-for-researchers/externalfund.html
