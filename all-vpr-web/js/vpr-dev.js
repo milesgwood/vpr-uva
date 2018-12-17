@@ -49,3 +49,9 @@
 })(jQuery, document, window);
 
 
+function show_all_news(){
+	'use strict';
+	jQuery('#home-news div:nth-child(1n+9)').css('display', "block");
+	jQuery('#news-button').css('display', "none");
+}
+
